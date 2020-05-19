@@ -1,5 +1,4 @@
-# Software Abstraction Layer
-Software Abstraction Layer
+# Software Abstraction Layer (SAL)
 
 This is work in progress. The code needs to be upgraded from using Visual Studio 2005 to Visual Studio 2019.
 
