@@ -1,0 +1,11 @@
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\DirectAccess\DirectAccessProvider\bin\Debug\DirectAccessProvider.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\DirectAccess\DirectAccessProvider\bin\Debug\DirectAccessProvider.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\DirectAccess\DirectAccessProvider\bin\Debug\SAL.DataContainers.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\DirectAccess\DirectAccessProvider\bin\Debug\SAL.Factory.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\DirectAccess\DirectAccessProvider\bin\Debug\SAL.DataContainers.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\DirectAccess\DirectAccessProvider\bin\Debug\SAL.Factory.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\DirectAccess\DirectAccessProvider\obj\Debug\DirectAccessProvider.csprojAssemblyReference.cache
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\DirectAccess\DirectAccessProvider\obj\Debug\DirectAccessProvider.csproj.CoreCompileInputs.cache
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\DirectAccess\DirectAccessProvider\obj\Debug\DirectAccessProvider.csproj.CopyComplete
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\DirectAccess\DirectAccessProvider\obj\Debug\DirectAccessProvider.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\DirectAccess\DirectAccessProvider\obj\Debug\DirectAccessProvider.pdb

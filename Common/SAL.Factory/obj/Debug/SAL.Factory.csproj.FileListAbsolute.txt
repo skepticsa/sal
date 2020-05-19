@@ -1,0 +1,9 @@
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\SAL.Factory\bin\Debug\SAL.Factory.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\SAL.Factory\bin\Debug\SAL.Factory.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\SAL.Factory\bin\Debug\SAL.DataContainers.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\SAL.Factory\bin\Debug\SAL.DataContainers.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\SAL.Factory\obj\Debug\SAL.Factory.csprojAssemblyReference.cache
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\SAL.Factory\obj\Debug\SAL.Factory.csproj.CoreCompileInputs.cache
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\SAL.Factory\obj\Debug\SAL.Factory.csproj.CopyComplete
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\SAL.Factory\obj\Debug\SAL.Factory.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\SAL.Factory\obj\Debug\SAL.Factory.pdb

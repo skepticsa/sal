@@ -1,0 +1,6 @@
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\WCF\SAL.WCFServiceHost\bin\SAL.WCFServiceHost.dll.config
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\WCF\SAL.WCFServiceHost\bin\SAL.WCFServiceHost.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\WCF\SAL.WCFServiceHost\bin\SAL.WCFServiceHost.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\WCF\SAL.WCFServiceHost\obj\Debug\SAL.WCFServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\WCF\SAL.WCFServiceHost\obj\Debug\SAL.WCFServiceHost.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\ServiceProviders\WCF\SAL.WCFServiceHost\obj\Debug\SAL.WCFServiceHost.pdb

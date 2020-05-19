@@ -1,0 +1,12 @@
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\bin\Debug\SAL.WSProxy.dll.config
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\bin\Debug\SAL.WSProxy.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\bin\Debug\SAL.WSProxy.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\bin\Debug\SAL.DataContainers.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\bin\Debug\SAL.Factory.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\bin\Debug\SAL.DataContainers.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\bin\Debug\SAL.Factory.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\obj\Debug\SAL.WSProxy.csprojAssemblyReference.cache
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\obj\Debug\SAL.WSProxy.csproj.CoreCompileInputs.cache
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\obj\Debug\SAL.WSProxy.csproj.CopyComplete
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\obj\Debug\SAL.WSProxy.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WS\SAL.WSProxy\obj\Debug\SAL.WSProxy.pdb

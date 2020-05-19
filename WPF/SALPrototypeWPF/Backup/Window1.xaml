@@ -1,0 +1,15 @@
+﻿<Window x:Class="SALPrototypeWPF.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Window1" Height="347" Width="492">
+    <Grid>
+        <ComboBox Height="23" Margin="137,14,187,0" Name="comboBoxServiceType" VerticalAlignment="Top" SelectionChanged="comboBoxServiceType_SelectionChanged" />
+        <Label Height="28" Margin="8,12,0,0" Name="labelServiceType" VerticalAlignment="Top" HorizontalAlignment="Left" Width="119">_Service Type:</Label>
+        <Label Height="28" HorizontalAlignment="Left" Margin="17,66,0,0" Name="labelAccountId" VerticalAlignment="Top" Width="120">_Account Id:</Label>
+        <TextBox Height="23" Margin="0,66,187,0" Name="textBoxAccountId" VerticalAlignment="Top" HorizontalAlignment="Right" Width="146" />
+        <Button Height="23" HorizontalAlignment="Right" Margin="0,66,77,0" Name="buttonRetrieve" VerticalAlignment="Top" Width="75" Click="buttonRetrieve_Click">_Retrieve</Button>
+        <TextBox Margin="137,130,29,0" Name="textBoxName" Height="23" VerticalAlignment="Top" />
+        <TextBox Height="23" Margin="137,0,29,109" Name="textBoxAddress" VerticalAlignment="Bottom" />
+        <TextBox Height="23" Margin="137,0,176,61" Name="textBoxBuyingPower" VerticalAlignment="Bottom" />
+    </Grid>
+</Window>

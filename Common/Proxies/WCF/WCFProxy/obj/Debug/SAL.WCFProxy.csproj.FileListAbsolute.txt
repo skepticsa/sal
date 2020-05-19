@@ -1,0 +1,12 @@
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\bin\Debug\WCFProxy.dll.config
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\bin\Debug\WCFProxy.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\bin\Debug\WCFProxy.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\bin\Debug\SAL.DataContainers.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\bin\Debug\SAL.Factory.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\bin\Debug\SAL.DataContainers.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\bin\Debug\SAL.Factory.pdb
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\obj\Debug\SAL.WCFProxy.csprojAssemblyReference.cache
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\obj\Debug\SAL.WCFProxy.csproj.CoreCompileInputs.cache
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\obj\Debug\SAL.WCFProxy.csproj.CopyComplete
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\obj\Debug\WCFProxy.dll
+C:\Users\Danut\Dropbox\EU\SAL\Prototype.2019\Common\Proxies\WCF\WCFProxy\obj\Debug\WCFProxy.pdb

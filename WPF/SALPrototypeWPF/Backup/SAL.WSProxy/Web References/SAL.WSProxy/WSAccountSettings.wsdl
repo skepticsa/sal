@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetAccountSettings">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="tns:AccountId" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AccountId">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ClearingId" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="BranchId" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetAccountSettingsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAccountSettingsResult" type="tns:AccountSettings" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="AccountSettings">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Id" type="tns:AccountId" />
+          <s:element minOccurs="1" maxOccurs="1" name="BuyingPower" type="s:decimal" />
+          <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Address" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="SetAccountBuyingPower">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="id" type="tns:AccountId" />
+            <s:element minOccurs="1" maxOccurs="1" name="bp" type="s:decimal" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SetAccountBuyingPowerResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAccountSettingsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAccountSettings" />
+  </wsdl:message>
+  <wsdl:message name="GetAccountSettingsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAccountSettingsResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetAccountBuyingPowerSoapIn">
+    <wsdl:part name="parameters" element="tns:SetAccountBuyingPower" />
+  </wsdl:message>
+  <wsdl:message name="SetAccountBuyingPowerSoapOut">
+    <wsdl:part name="parameters" element="tns:SetAccountBuyingPowerResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WSAccountSettingsSoap">
+    <wsdl:operation name="GetAccountSettings">
+      <wsdl:input message="tns:GetAccountSettingsSoapIn" />
+      <wsdl:output message="tns:GetAccountSettingsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SetAccountBuyingPower">
+      <wsdl:input message="tns:SetAccountBuyingPowerSoapIn" />
+      <wsdl:output message="tns:SetAccountBuyingPowerSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSAccountSettingsSoap" type="tns:WSAccountSettingsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAccountSettings">
+      <soap:operation soapAction="http://tempuri.org/GetAccountSettings" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetAccountBuyingPower">
+      <soap:operation soapAction="http://tempuri.org/SetAccountBuyingPower" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSAccountSettingsSoap12" type="tns:WSAccountSettingsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAccountSettings">
+      <soap12:operation soapAction="http://tempuri.org/GetAccountSettings" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetAccountBuyingPower">
+      <soap12:operation soapAction="http://tempuri.org/SetAccountBuyingPower" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSAccountSettings">
+    <wsdl:port name="WSAccountSettingsSoap" binding="tns:WSAccountSettingsSoap">
+      <soap:address location="http://localhost:3201/SAL.WebServices/WSAccountSettings.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSAccountSettingsSoap12" binding="tns:WSAccountSettingsSoap12">
+      <soap12:address location="http://localhost:3201/SAL.WebServices/WSAccountSettings.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

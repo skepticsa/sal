@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="SAL.WSProxy.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SAL_WSProxy_SAL_WSProxy_WSAccountSettings" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:3201/SAL.WebServices/WSAccountSettings.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="93814edc-663e-4d4c-93db-99937b67b3a8" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:3439/WCFAccountSettings.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WCFAccountSettings.disco" MetadataType="Disco" ID="b68750ca-160b-4432-b05e-ca25797e692d" SourceId="1" SourceUrl="http://localhost:3439/WCFAccountSettings.svc?disco" />
+    <MetadataFile FileName="WCFAccountSettings.wsdl" MetadataType="Wsdl" ID="406579ab-2e9e-4a55-98b0-a94e599f962f" SourceId="1" SourceUrl="http://localhost:3439/WCFAccountSettings.svc?wsdl" />
+    <MetadataFile FileName="WCFAccountSettings.xsd" MetadataType="Schema" ID="43d3687f-1638-44a8-8b9e-8ad8e10acb32" SourceId="1" SourceUrl="http://localhost:3439/WCFAccountSettings.svc?xsd=xsd2" />
+    <MetadataFile FileName="WCFAccountSettings1.xsd" MetadataType="Schema" ID="9236fd18-558b-4001-8baf-95dc9f7bcf00" SourceId="1" SourceUrl="http://localhost:3439/WCFAccountSettings.svc?xsd=xsd1" />
+    <MetadataFile FileName="WCFAccountSettings2.xsd" MetadataType="Schema" ID="450329ed-918e-4dc4-b48a-a07551ee4151" SourceId="1" SourceUrl="http://localhost:3439/WCFAccountSettings.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
